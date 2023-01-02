@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Nick P</title>
+    <link>https://nickmp.com/categories/</link>
+    <description>Recent content in Categories on Nick P</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 30 Dec 2016 18:12:16 +0000</lastBuildDate><atom:link href="https://nickmp.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>publications</title>
+      <link>https://nickmp.com/categories/publications/</link>
+      <pubDate>Fri, 30 Dec 2016 18:12:16 +0000</pubDate>
+      
+      <guid>https://nickmp.com/categories/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cycling</title>
+      <link>https://nickmp.com/categories/cycling/</link>
+      <pubDate>Tue, 07 Jun 2016 17:56:14 +0100</pubDate>
+      
+      <guid>https://nickmp.com/categories/cycling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>https://nickmp.com/categories/travel/</link>
+      <pubDate>Tue, 07 Jun 2016 17:56:14 +0100</pubDate>
+      
+      <guid>https://nickmp.com/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

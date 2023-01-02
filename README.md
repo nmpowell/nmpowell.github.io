@@ -1,1 +1,0 @@
-# nmpowell.github.io

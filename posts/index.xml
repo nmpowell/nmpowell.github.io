@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nick P</title>
+    <link>https://nickmp.com/posts/</link>
+    <description>Recent content in Posts on Nick P</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 30 Dec 2016 18:12:16 +0000</lastBuildDate><atom:link href="https://nickmp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://nickmp.com/posts/publications/</link>
+      <pubDate>Fri, 30 Dec 2016 18:12:16 +0000</pubDate>
+      
+      <guid>https://nickmp.com/posts/publications/</guid>
+      <description>Doctoral thesis 2016: Powell, NM. Automated morphometric analysis and phenotyping of mouse brains from structural µMR images, University College London.
+Papers 2017:
+Holmes, HE., Powell, NM., Ma, D., Ismail, O., Harrison, IF., Wells, JA., Colgan, N., O&amp;rsquo;Callaghan, JM., Johnson, RA., Murray, TK., Ahmed, Z., Fisher, A., Heggenes, M., Cardoso, MJ., Modat, M., O’Neill, MJ., Collins, EC., Fisher, EMC., Ourselin, S., Lythgoe, MF. (2017). Comparison of in vivo and ex vivo MRI for the detection of structural abnormalities in a mouse model of tauopathy.</description>
+    </item>
+    
+    <item>
+      <title>LEJOG 2016</title>
+      <link>https://nickmp.com/posts/lejog-2016/</link>
+      <pubDate>Tue, 07 Jun 2016 17:56:14 +0100</pubDate>
+      
+      <guid>https://nickmp.com/posts/lejog-2016/</guid>
+      <description>A brief account of my Land&amp;rsquo;s End to John o&amp;rsquo; Groats End-to-End cycle, in April 2016, over 17 days. Photos on Flickr.
+Route My route was based upon Alan Pewsey&amp;rsquo;s 15-day route, with some adjustments. Here are the destinations, a link to the routes on BikeMap.net, and the .GPX files I used:
+Day to &amp;hellip; miles ↑ ascent (m) ↓ descent (m) route 1 Penzance - Land&amp;rsquo;s End - Treyarnon 72 1050 1090 BM, .</description>
+    </item>
+    
+  </channel>
+</rss>
