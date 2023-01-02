@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>publications on Nick P</title>
+    <link>https://nickmp.com/categories/publications/</link>
+    <description>Recent content in publications on Nick P</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 30 Dec 2016 18:12:16 +0000</lastBuildDate><atom:link href="https://nickmp.com/categories/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://nickmp.com/posts/publications/</link>
+      <pubDate>Fri, 30 Dec 2016 18:12:16 +0000</pubDate>
+      
+      <guid>https://nickmp.com/posts/publications/</guid>
+      <description>Doctoral thesis 2016: Powell, NM. Automated morphometric analysis and phenotyping of mouse brains from structural µMR images, University College London.
+Papers 2017:
+Holmes, HE., Powell, NM., Ma, D., Ismail, O., Harrison, IF., Wells, JA., Colgan, N., O&amp;rsquo;Callaghan, JM., Johnson, RA., Murray, TK., Ahmed, Z., Fisher, A., Heggenes, M., Cardoso, MJ., Modat, M., O’Neill, MJ., Collins, EC., Fisher, EMC., Ourselin, S., Lythgoe, MF. (2017). Comparison of in vivo and ex vivo MRI for the detection of structural abnormalities in a mouse model of tauopathy.</description>
+    </item>
+    
+  </channel>
+</rss>

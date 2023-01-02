@@ -1,0 +1,59 @@
+/* custom for Hyde theme */
+
+/* Bigger sidebar if we have a very wide screen */
+@media (min-width: 92rem) {
+  .sidebar {
+    width: 28rem;
+  }
+  .content {
+    max-width: 38rem;
+    margin-left: 32rem; /* sidebar width +4 */
+    margin-right: 4rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .vertical-centre {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+  }
+}
+
+/* Grey-Green */
+.theme-greygreen-0 .sidebar {
+  /* A plain BG image with a colour blended on top via multiply. */
+  /* At left, the image is aligned left; at top it's centred. */
+  /* If you add fixed here, the image does not scale */
+  background: url(../images/header-bg.jpg) no-repeat left center rgba(51, 80, 80, 0.8);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+/* .theme-greygreen-0 .content a,
+.theme-greygreen-0 .related-posts li a { */
+  /* color: #335050; */
+  /* color: #268BD2;
+} */
+
+html {
+  font-family: "Open Sans", "PT Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.7em;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Lora", serif;
+  margin-bottom: 0.6em;
+  margin-top: 1em;
+}
+
+/* About section */
+.sidebar-about h1 {
+  font-family: "Lora", serif;
+  color: #CAD2C5;
+}
