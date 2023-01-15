@@ -57,3 +57,12 @@ h1, h2, h3, h4 {
   font-family: "Lora", serif;
   color: #CAD2C5;
 }
+
+/* Meta data line below post title */
+.date-info {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #757575;
+  font-style: italic;
+}
