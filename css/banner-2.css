@@ -1,0 +1,14 @@
+/* custom for Hyde theme */
+
+/* Grey-Green */
+.theme-greygreen-0 .sidebar {
+  /* A plain BG image with a colour blended on top via multiply. */
+  /* At left, the image is aligned left; at top it's centred. */
+  /* If you add fixed here, the image does not scale */
+  background: url(../images/header-bg-2.jpg) no-repeat left center rgba(51, 80, 80, 0.8);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: multiply;
+}

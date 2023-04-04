@@ -24,17 +24,8 @@
 }
 
 /* Grey-Green */
-.theme-greygreen-0 .sidebar {
-  /* A plain BG image with a colour blended on top via multiply. */
-  /* At left, the image is aligned left; at top it's centred. */
-  /* If you add fixed here, the image does not scale */
-  background: url(../images/header-bg.jpg) no-repeat left center rgba(51, 80, 80, 0.8);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-blend-mode: multiply;
-}
+/* see subsequent banner-N.css for background images */
+
 /* .theme-greygreen-0 .content a,
 .theme-greygreen-0 .related-posts li a { */
   /* color: #335050; */
