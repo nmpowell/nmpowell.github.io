@@ -3,7 +3,7 @@
 /* Bigger sidebar if we have a very wide screen */
 @media (min-width: 92rem) {
   .sidebar {
-    width: 28rem;
+    width: 30rem;
   }
   .content {
     max-width: 38rem;
@@ -12,7 +12,22 @@
   }
 }
 
+@media (min-width: 64em) {
+    .sidebar {
+        width: 24rem;
+    }
+    .content {
+        margin-left: 28rem; /* sidebar width +4 */
+    }
+}
+
 @media (min-width: 48em) {
+  .sidebar {
+    width: 24rem;
+  }
+  .content {
+    margin-left: 28rem; /* sidebar width +4 */
+  }
   .vertical-centre {
     margin: 0;
     position: absolute;
