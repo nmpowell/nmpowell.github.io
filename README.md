@@ -7,3 +7,11 @@ Hosted by GitHub Pages for now: https://nmpowell.github.io from https://github.c
 This repo is automatically updated via a GitHub Action in a private repo.
 
 [0]: https://gohugo.io/
+
+## Credits
+
+<a target="_blank" href="https://icons8.com/icon/SjG6BzZwdP2-/mastodon">Mastodon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/62856/github">GitHub</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a href="https://iconscout.com/icons/email" target="_blank">Free Email Icon</a> by <a href="https://iconscout.com/contributors/eva-icons" target="_blank">Akveo</a>
