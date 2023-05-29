@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en" >
+
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.112.4">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Carbon Intensity Forecast Tracking &middot; Nick P</title>
+  <meta name="description" content="Tracking the reliability of the UK&#39;s National Grid carbon intensity forecast" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://nickmp.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://nickmp.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://nickmp.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://nickmp.com/css/hyde.css">
+
+  
+  
+  <link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/banner-2.css"><link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/banner-1.css"><link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/custom-hyde.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Open+Sans|Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="../../favicon.png">
+
+  
+  
+  
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+  
+</head>
+
+  <body class="theme-greygreen-0 ">
+  <aside class="sidebar">
+  <div class="container vertical-centre">
+    <div class="sidebar-about">
+      <a href="https://nickmp.com/">
+        <h1>Nick P</h1>
+      </a>
+      <p class="lead">
+         Some things I&#39;ve made. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://nickmp.com/">Home</a> </li>
+        
+      </ul>
+      <ul class="sidebar-nav">
+        <li><a href="../../posts/carbon-intensity-forecast-tracking/"> Carbon Intensity Forecast Tracking </a></li><li><a href="../../posts/lejog-2016/"> LEJOG 2016 </a></li><li><a href="../../posts/publications/"> Publications </a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container sidebar-sticky">
+    <p>
+        <a href="mailto:hey@nickmp.com" title=Email:&#32;hey@nickmp.com rel=contact&#32;me&#32;via&#32;email><svg position="relative" width="1.25em" height="1.25em" fill="currentColor" transition: "fill .3s" transform="scale(1.0)" class="svg email-icon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="email"><g data-name="Layer 2"><path d="M19 4H5a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-.67 2L12 10.75 5.67 6zM19 18H5a1 1 0 0 1-1-1V7.25l7.4 5.55a1 1 0 0 0 .6.2 1 1 0 0 0 .6-.2L20 7.25V17a1 1 0 0 1-1 1z" data-name="email"></path></g></svg></a>
+        <a href="https://github.com/nmpowell" title=Github:&#32;@nmpowell rel=my&#32;code><?xml version="1.0"?><svg position="relative" width="1.25em" height="1.25em" fill="currentColor" transition: "fill .3s" transform="scale(1.0)" class="svg github-icon-icon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="480px" height="480px">    <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"/></svg></a></p>
+    <p>&copy; 2016-2023</p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Carbon Intensity Forecast Tracking</h1>
+  
+
+
+<time datetime=2023-04-10T06:14:13&#43;0100 class="post-date">Monday 10 April, 2023
+
+
+<span class="post-date"> <br> last edited Monday 29 May, 2023</span>
+
+</time>
+
+  <!-- This is for inline math -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+<p>Electricity in the UK is supplied by <a href="https://grid.iamkate.com/">a mix of different generation sources</a>. Renewables like wind and solar produce no carbon dioxide at the point of generation, are dropping in price, and <a href="https://www.nationalgrideso.com/future-energy/our-progress-towards-net-zero">increasingly supply a large proportion of our power</a>. But with their current limited capacity (we just haven&rsquo;t built enough yet), we&rsquo;re still quite dependent upon fossil fuels.</p>
+<p>The UK&rsquo;s National Grid Energy System Operator (NGESO) <a href="https://www.nationalgrideso.com/future-energy/our-progress-towards-net-zero/carbon-intensity-dashboard">publishes</a> half-hourly estimates of consumed electricity&rsquo;s carbon intensity (CI), in grams of CO<sub>2</sub> per kilowatt-hour. They combine live electricity consumption and generation data with figures about the relative CI of different generation sources, from <a href="https://doi.org/10.1016/j.enpol.2016.12.037">a paper by Iain Staffell (2017)</a>.</p>
+<p>One purpose is to <a href="https://www.nationalgrid.com/cop26/when-to-plug-in-app">help people decide when best to use electricity</a>, based upon the greenness of the grid. If you use appliances or charge batteries when renewables are supplying much of the electricity to the overall mix, you can reduce your personal carbon emissions.</p>
+<h2 id="predicting-tomorrows-carbon-intensity">Predicting tomorrow&rsquo;s carbon intensity</h2>
+<p>They also provide a <a href="https://carbonintensity.org.uk/">forecast</a>, which predicts half-hourly national (and regional) CI up to 48 hours in advance.</p>
+<p>This is republished in various <a href="http://www.cs.ox.ac.uk/people/alex.rogers/gridcarbon/">third-party apps</a>. You might plan to, say, <a href="https://unop.uk/shift/">charge your car</a> when the forecast predicts a low CI spell overnight.</p>
+<p>But how reliable are those forecasts?</p>
+<p>At the Carbon Intensity API site, &ldquo;actual&rdquo; and &ldquo;forecast&rdquo; values are <a href="https://carbonintensity.org.uk/#graphs">compared on a graph</a>, and you can download historical data<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Here&rsquo;s a plot of the forecast percentage error ($100\times(forecast-actual)/actual$) from that data from September 2017 until March 2023. The mean absolute error was 13.7 $gCO_2/kWh$ (standard deviation 72.6 $gCO_2/kWh$); the mean absolute percentage error was about 7.1% (s.d. 29%). The overall error range was much greater, from -96.6% to 4366.8% (there were some huge overestimations in 2019).</p>
+<p><a href="../../images/posts/ci_pc_forecast_error_2017-2023.png"><img src="../../images/posts/ci_pc_forecast_error_2017-2023.png" alt="Forecast percentage error, 2017-2023" title="Forecast percentage error"></a></p>
+<p>At the time, each of those forecasts was updated every half hour, for 48 hours, overwriting old forecasts for the same future half-hour time window. The old forecasts are not kept, so the above graph reflects the final forecast given for each window.</p>
+<h2 id="forecast-quality">Forecast quality</h2>
+<p>How good are the individual forecasts up to 48 hours in advance - the ones you see when you check the apps? Can we confidently rely upon a forecast at any given time?</p>
+<p>I asked some of the creators of the API, and it seems they don&rsquo;t measure (or at least don&rsquo;t release) forecast quality. So I&rsquo;ve made <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking">a small git scraping project to capture the forecasts as they are published</a>, and then compare them with the &ldquo;actual&rdquo; values for each window. Here are some results.</p>
+<p><a href="../../images/posts/ci_national_forecast_trend_with_boxplot.png"><img src="../../images/posts/ci_national_forecast_trend_with_boxplot.png" alt="Forecast evolution, 2023 April 13th" title="Forecast evolution, 2023 April 13th"></a></p>
+<p>This plot shows the evolution of forecasts for a single time window. There are about 96 forecasts (ignoring missing data), one every half hour, for 48 hours before each window. I&rsquo;ve also recorded values for 24 hours after the window has passed, because the &ldquo;actual&rdquo; value (in orange, here) is sometimes updated. Note that the final (rightmost) forecast, which is fairly close to the &ldquo;actual&rdquo; value, doesn&rsquo;t capture the <em>range</em> of earlier forecasts, illustrated by a boxplot.</p>
+<p><a href="../../images/posts/ci_national_forecast_boxplots.png"><img src="../../images/posts/ci_national_forecast_boxplots.png" alt="Forecast ranges as boxplots, 2023 April 13th" title="Forecast ranges as boxplots, 2023 April 13th"></a></p>
+<p>We can show the range of forecast values for every half-hour window in a day using more boxplots. The above plot shows this for the same day, 13th April 2023. The colour bands represent the qualitative CI &ldquo;index&rdquo;. This index (&ldquo;very low&rdquo;, &ldquo;low&rdquo;, &ldquo;moderate&rdquo;, &ldquo;high&rdquo;, &ldquo;very high&rdquo;), from green to red, has <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking/blob/main/data/artifacts/ci_index_numerical_bands.csv">distinct bands</a> (from <a href="https://github.com/carbon-intensity/methodology">the methodology paper</a> released by NGESO) and these are often cited in 3rd-party apps. They are updated annually to 2030, narrowing each band to reflect increasingly stringent CO<sub>2</sub> emissions targets.</p>
+<p><a href="../../images/posts/ci_national_forecast_error_boxplots.png"><img src="../../images/posts/ci_national_forecast_error_boxplots.png" alt="Percentage forecast error ranges as boxplots, 2023 April 15th" title="Percentage forecast error ranges as boxplots, 2023 April 15th"></a></p>
+<p>Given the &ldquo;actual&rdquo; value, which is recorded shortly after the window, we can calculate the error and percentage error of each forecast, and use boxplots to show their range (above). Most forecasts underestimated the CI on this day.</p>
+<p>For the latest results, see <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking">the repo on Github</a>.</p>
+<h2 id="does-this-matter">Does this matter?</h2>
+<p>If the forecast error is enough to cross a boundary between &ldquo;green&rdquo; and &ldquo;not green&rdquo; electricity, then maybe this matters.</p>
+<p>If a forecast checked at any given time is unlikely to have such an extreme error, however, then we can confidently rely upon it.</p>
+<p>Let&rsquo;s define a problematic forecast as any which erroneously tells us the CI will be &ldquo;low&rdquo; for a given window (up to 48 hours in the future), but that window actually records a CI of &ldquo;high&rdquo; or above. In 2023, that means a CI difference of at least $200-119=81\ gCO_2/kWh$, or an error of 40.5%. <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking/blob/main/data/artifacts/ci_index_numerical_band_error_scales.csv">Similarly</a>, you would need an error of about 92 $gCO_2/kWh$ to cross from &ldquo;moderate&rdquo; to &ldquo;very high&rdquo;, or 81 $gCO_2/kWh$ to cross from &ldquo;very low&rdquo; to &ldquo;moderate&rdquo;.</p>
+<p>How likely are such errors? They seem safely above the mean absolute error quoted above (13.7 $gCO_2/kWh$), but that was calculated from the final forecasts, and doesn&rsquo;t include the forecasts made for 48 hours prior to each window.</p>
+<p><a href="../../images/posts/ci_error_histograms_compared.png"><img src="../../images/posts/ci_error_histograms_compared.png" alt="Forecast error histograms: historical data and one month&amp;rsquo;s complete forecast data" title="Forecast error histograms: historical data and one month's complete forecast data"></a></p>
+<p>A Laplacian distribution fits the historical forecast error data (one forecast per half-hour window) quite well (see <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking/blob/main/investigation.ipynb">investigation notebook</a>). With about two month&rsquo;s complete forecast data<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> from March-May 2023, however, including all 96 forecasts for each window, the fit appears closer to the Normal. Individual forecasts have a broader error range, and the distribution is slightly asymmetric. Forecasts in the times sampled tended to underestimate the true CI, but without as many extremes; those are mostly positive (some have over 150% error). The mean absolute error &ndash; as of this writing &ndash; is 22.8 $gCO_2/kWh$ (the median is 19.0 $gCO_2/kWh$).</p>
+<p><a href="../../images/posts/national_ci_forecast_error_distribution.png"><img src="../../images/posts/national_ci_forecast_error_distribution.png" alt="Forecast error histograms: historical data and one month&amp;rsquo;s complete forecast data" title="Forecast error histograms: historical data and one month's complete forecast data"></a></p>
+<p>So, how likely are you to see such errors? Assuming either of the two distributions above hold (Student&rsquo;s t closely approximates the Normal), here are the current probabilities of different forecast errors<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>:</p>
+<table>
+<thead>
+<tr>
+<th>index range</th>
+<th>CI change, $gCO_2/kWh$</th>
+<th>% error</th>
+<th>chance (Normal)</th>
+<th>chance (Laplacian)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>very low - moderate (or greater)</td>
+<td>81</td>
+<td>67.5%</td>
+<td>0.28%</td>
+<td>5.2%</td>
+</tr>
+<tr>
+<td>low - high (or greater)</td>
+<td>81</td>
+<td>40.5%</td>
+<td>0.28%</td>
+<td>5.2%</td>
+</tr>
+<tr>
+<td>moderate - very high (or greater)</td>
+<td>92</td>
+<td>31.6%</td>
+<td>0.07%</td>
+<td>3.5%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="conclusion">Conclusion</h2>
+<p>If we assume forecast error is both normally distributed and independent of the actual CI<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>, then less than 1 in 300 forecasts have significant, &ldquo;problematic&rdquo; error. There are 96 forecasts per half-hour window, so such errors might occur once every 2 hours (4 windows), or approximately 12 times per day.</p>
+<p>This is fairly good! It&rsquo;s unlikely that you&rsquo;ll see a forecast which is so wrong that it should change your decision to use electricity. In most cases, the NGESO&rsquo;s forecasts are reliable.</p>
+<p>Of course, those are large errors. If you were only willing to accept smaller errors - from the middle of one band to the next-highest, for example - or 40 $gCO_2/kWh$ - then <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking/tree/main#error-magnitudes-and-their-probabilities">the probabilities are higher</a> (about 14%). You might expect to see such an error 645 times per day.</p>
+<p>As noted above, the index bands&rsquo; ranges narrow every year, to 2030, when the &ldquo;very high&rdquo; band will begin at 150 $gCO_2/kWh$, around half its 2023 value, in line with a <a href="https://www.theccc.org.uk/wp-content/uploads/2015/11/Committee-on-Climate-Change-Fifth-Carbon-Budget-Report.pdf">national target</a> of 100 $gCO_2/kWh$.</p>
+<p>The forecast will therefore unfortunately become increasingly unreliable, in terms of the qualitative index bands, if the current error rate remains the same. In 2027, an error of 52 $gCO_2/kWh$ <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking/blob/main/data/artifacts/ci_index_numerical_band_error_scales.csv">will be enough to mistake &ldquo;very high&rdquo; for &ldquo;moderate&rdquo; CI</a> (probability 5.5%). In 2030, that figure will be 22 $gCO_2/kWh$ (probability 41.7%).</p>
+<p>We should hope that the forecasts can be improved!</p>
+<p>This dataset, being from only about 2 months&rsquo; data, is quite limited. It will be updated (continuously!) in the <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking">Github repo</a>, where the latest plots are also available.</p>
+<p>If you find problems with this analysis, or have any comments, please do let me know!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The &ldquo;actual&rdquo; values are still approximations, and are somewhat incomplete owing to the omission of some smaller generation sources, but they give a reasonable estimate for these purposes.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>168111 data points.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>We could ignore positive errors, which overestimate the CI. But you might be just as likely to make a decision <em>not</em> to use electricity (which you were going to use anyway) when you really could have. So these are the total probabilities, using both sides of the distribution.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Some assumptions made for these distributions are likely wrong. Sequential forecasts are likely <em>not</em> independent; National Grid&rsquo;s models are probably weighted by previous forecasts. Nonetheless, the error magnitudes are roughly independent of the final &ldquo;actual&rdquo; CI value ($r\approx-0.149$).&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</div>
+
+
+    </main>
+
+    
+      
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BN35T3VTMW"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-BN35T3VTMW', { 'anonymize_ip': false });
+}
+</script>
+
+    
+  </body>
+</html>
