@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en" lang="en" >
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en-gb" lang="en-gb" >
 
 <head>
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.112.4">
+  <meta name="generator" content="Hugo 0.113.0">
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
 
   
   
-  <link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/banner-2.css"><link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/custom-hyde.css"><link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/banner-1.css">
+  <link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/custom-hyde.css"><link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/banner-1.css"><link type="text/css" link rel="stylesheet" href="https://nickmp.com/css/banner-2.css">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Open+Sans|Abril+Fatface|PT+Sans:400,400i,700">
 
@@ -86,7 +86,7 @@
 <time datetime=2023-04-10T06:14:13&#43;0100 class="post-date">Monday 10 April, 2023
 
 
-<span class="post-date"> <br> last edited Monday 29 May, 2023</span>
+<span class="post-date"> <br> last edited Tuesday 6 June, 2023</span>
 
 </time>
 
@@ -126,9 +126,9 @@
 <p>If a forecast checked at any given time is unlikely to have such an extreme error, however, then we can confidently rely upon it.</p>
 <p>Let&rsquo;s define a problematic forecast as any which erroneously tells us the CI will be &ldquo;low&rdquo; for a given window (up to 48 hours in the future), but that window actually records a CI of &ldquo;high&rdquo; or above. In 2023, that means a CI difference of at least $200-119=81\ gCO_2/kWh$, or an error of 40.5%. <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking/blob/main/data/artifacts/ci_index_numerical_band_error_scales.csv">Similarly</a>, you would need an error of about 92 $gCO_2/kWh$ to cross from &ldquo;moderate&rdquo; to &ldquo;very high&rdquo;, or 81 $gCO_2/kWh$ to cross from &ldquo;very low&rdquo; to &ldquo;moderate&rdquo;.</p>
 <p>How likely are such errors? They seem safely above the mean absolute error quoted above (13.7 $gCO_2/kWh$), but that was calculated from the final forecasts, and doesn&rsquo;t include the forecasts made for 48 hours prior to each window.</p>
-<p><a href="../../images/posts/ci_error_histograms_compared.png"><img src="../../images/posts/ci_error_histograms_compared.png" alt="Forecast error histograms: historical data and one month&amp;rsquo;s complete forecast data" title="Forecast error histograms: historical data and one month's complete forecast data"></a></p>
+<p><a href="../../images/posts/ci_error_histograms_compared.png"><img src="../../images/posts/ci_error_histograms_compared.png" alt="Forecast error histograms: historical data and one month&rsquo;s complete forecast data" title="Forecast error histograms: historical data and one month's complete forecast data"></a></p>
 <p>A Laplacian distribution fits the historical forecast error data (one forecast per half-hour window) quite well (see <a href="https://github.com/nmpowell/carbon-intensity-forecast-tracking/blob/main/investigation.ipynb">investigation notebook</a>). With about two month&rsquo;s complete forecast data<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> from March-May 2023, however, including all 96 forecasts for each window, the fit appears closer to the Normal. Individual forecasts have a broader error range, and the distribution is slightly asymmetric. Forecasts in the times sampled tended to underestimate the true CI, but without as many extremes; those are mostly positive (some have over 150% error). The mean absolute error &ndash; as of this writing &ndash; is 22.8 $gCO_2/kWh$ (the median is 19.0 $gCO_2/kWh$).</p>
-<p><a href="../../images/posts/national_ci_forecast_error_distribution.png"><img src="../../images/posts/national_ci_forecast_error_distribution.png" alt="Forecast error histograms: historical data and one month&amp;rsquo;s complete forecast data" title="Forecast error histograms: historical data and one month's complete forecast data"></a></p>
+<p><a href="../../images/posts/national_ci_forecast_error_distribution.png"><img src="../../images/posts/national_ci_forecast_error_distribution.png" alt="Forecast error histograms: historical data and one month&rsquo;s complete forecast data" title="Forecast error histograms: historical data and one month's complete forecast data"></a></p>
 <p>So, how likely are you to see such errors? Assuming either of the two distributions above hold (Student&rsquo;s t closely approximates the Normal), here are the current probabilities of different forecast errors<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>:</p>
 <table>
 <thead>
