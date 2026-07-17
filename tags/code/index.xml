@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>code on Nick P</title>
-    <link>https://nickmp.com/tags/code/</link>
-    <description>Recent content in code on Nick P</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 10 Apr 2023 06:14:13 +0100</lastBuildDate><atom:link href="https://nickmp.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Carbon Intensity Forecast Tracking</title>
-      <link>https://nickmp.com/posts/carbon-intensity-forecast-tracking/</link>
-      <pubDate>Mon, 10 Apr 2023 06:14:13 +0100</pubDate>
-      
-      <guid>https://nickmp.com/posts/carbon-intensity-forecast-tracking/</guid>
-      <description>Electricity in the UK is supplied by a mix of different generation sources. Renewables like wind and solar produce no carbon dioxide at the point of generation, are dropping in price, and increasingly supply a large proportion of our power. But with their current limited capacity (we just haven&amp;rsquo;t built enough yet), we&amp;rsquo;re still quite dependent upon fossil fuels.
-The UK&amp;rsquo;s National Grid Energy System Operator (NGESO) publishes half-hourly estimates of consumed electricity&amp;rsquo;s carbon intensity (CI), in grams of CO2 per kilowatt-hour.</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Code on Nick P</title>
+		<link>https://nickmp.com/tags/code/</link>
+		<description>Recent content in Code on Nick P</description>
+		<generator>Hugo</generator>
+		<language>en-gb</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 17 Jul 2026 06:04:43 +0100</lastBuildDate>
+		
+			<atom:link href="https://nickmp.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Carbon Intensity Forecast Tracking</title>
+				<link>https://nickmp.com/posts/carbon-intensity-forecast-tracking/</link>
+				<pubDate>Mon, 10 Apr 2023 06:14:13 +0100</pubDate>
+				<guid>https://nickmp.com/posts/carbon-intensity-forecast-tracking/</guid>
+				<description>&lt;p&gt;Electricity in the UK is supplied by &lt;a href=&#34;https://grid.iamkate.com/&#34;&gt;a mix of different generation sources&lt;/a&gt;. Renewables like wind and solar produce no carbon dioxide at the point of generation, are dropping in price, and &lt;a href=&#34;https://www.nationalgrideso.com/future-energy/our-progress-towards-net-zero&#34;&gt;increasingly supply a large proportion of our power&lt;/a&gt;. But with their current limited capacity (we just haven&amp;rsquo;t built enough yet), we&amp;rsquo;re still quite dependent upon fossil fuels.&lt;/p&gt;&#xA;&lt;p&gt;The UK&amp;rsquo;s National Grid Energy System Operator (NGESO) &lt;a href=&#34;https://www.nationalgrideso.com/future-energy/our-progress-towards-net-zero/carbon-intensity-dashboard&#34;&gt;publishes&lt;/a&gt; half-hourly estimates of consumed electricity&amp;rsquo;s carbon intensity (CI), in grams of CO&lt;sub&gt;2&lt;/sub&gt; per kilowatt-hour. They combine live electricity consumption and generation data with figures about the relative CI of different generation sources, from &lt;a href=&#34;https://doi.org/10.1016/j.enpol.2016.12.037&#34;&gt;a paper by Iain Staffell (2017)&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
